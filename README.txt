@@ -1,0 +1,1 @@
+This is the start of the project page for the EduGlu Wiki

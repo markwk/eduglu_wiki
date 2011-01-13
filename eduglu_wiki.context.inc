@@ -42,9 +42,9 @@ function eduglu_wiki_context_default_contexts() {
           'region' => 'right',
           'weight' => 0,
         ),
-        'boxes-wiki_navigation' => array(
+        'boxes-eduglu_wiki_navigation' => array(
           'module' => 'boxes',
-          'delta' => 'wiki_navigation',
+          'delta' => 'eduglu_wiki_navigation',
           'region' => 'right',
           'weight' => 1,
         ),
