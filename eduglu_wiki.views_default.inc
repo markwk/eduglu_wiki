@@ -758,6 +758,23 @@ function eduglu_wiki_views_default_views() {
       'field' => 'type',
       'relationship' => 'none',
     ),
+    'feature' => array(
+      'operator' => '=',
+      'value' => '',
+      'group' => '0',
+      'exposed' => FALSE,
+      'expose' => array(
+        'operator' => FALSE,
+        'label' => '',
+      ),
+      'id' => 'feature',
+      'table' => 'node',
+      'field' => 'feature',
+      'override' => array(
+        'button' => 'Override',
+      ),
+      'relationship' => 'none',
+    ),
   ));
   $handler->override_option('access', array(
     'type' => 'spaces_feature',
